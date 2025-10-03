@@ -22,8 +22,9 @@ function LoginForm ({onLogin})  {
             style={{padding: '0.5rem', width: '200px'}}
             />
         </div>
+        
         <div style={{marginBottom:'1rem'}}>
-            <input
+          <input
           type="password"
           placeholder="Password"
           value={password}
